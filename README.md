@@ -45,7 +45,7 @@ You need to have Java and Maven installed on your machine.
 Clone the repository to your local machine.
 
 ```
-git clone <repository_url>
+git clone https://github.com/tcsizmadia/precognox-dev-lifecycle-ws
 ```
 
 Navigate to the project directory.
@@ -73,7 +73,7 @@ This will create a runnable - but pretty useless - jar file in the target direct
 You can run the application using the following command.
 
 ```
-java -jar target/my-java-app.jar
+java -jar target/fruit-detector-1.0-SNAPSHOT.jar
 ```
 
 ### Running the Tests
