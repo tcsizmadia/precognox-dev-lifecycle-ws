@@ -13,9 +13,9 @@ package com.precognox.workshops.fruitdetector;
  * @see FruitDetector
  */
 public enum Results {
-    POSITIVE("👍"),
-    NEGATIVE("👎"),
-    UNKNOWN("🤷‍♂️");
+    POSITIVE("✅"),
+    NEGATIVE("❌"),
+    UNKNOWN("❓");
 
     private final String emoji;
 
