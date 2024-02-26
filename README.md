@@ -1,3 +1,17 @@
+![precognox logo](assets/precognox_logo.png)
+
+[precognox.com](https://precognox.com) | 
+[LinkedIn](https://www.linkedin.com/company/precognox/) |
+[Facebook](https://www.facebook.com/Precognox) |
+[Instagram](https://www.instagram.com/precognox/) |
+[Youtube](https://www.youtube.com/channel/UCTj_UqZJl_Ngx6rQSPKbNHA) |
+
+---
+
+**Tamas Csizmadia** 
+[LinkedIn](https://www.linkedin.com/in/tamascsizmadia/) | 
+[GitHub](https://github.com/tcsizmadia)
+
 # Development Lifecycle Mini-Workshop for Student Visitors
 
 This project demonstrates how we manage our development lifecycle at Precognox. Naturally, it is an over-simplified scenario, but it should give you a good idea about the steps we take to ensure the quality of our software.
