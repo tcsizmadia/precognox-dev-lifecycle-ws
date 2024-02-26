@@ -4,7 +4,7 @@
 [LinkedIn](https://www.linkedin.com/company/precognox/) |
 [Facebook](https://www.facebook.com/Precognox) |
 [Instagram](https://www.instagram.com/precognox/) |
-[Youtube](https://www.youtube.com/channel/UCTj_UqZJl_Ngx6rQSPKbNHA) |
+[Youtube](https://www.youtube.com/channel/UCTj_UqZJl_Ngx6rQSPKbNHA)
 
 ---
 
@@ -110,4 +110,4 @@ mvn test
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](LICENSE).
