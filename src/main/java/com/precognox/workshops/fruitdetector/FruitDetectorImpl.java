@@ -1,5 +1,10 @@
 package com.precognox.workshops.fruitdetector;
 
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Set;
+
 /**
  * Reference implementation of the {@link FruitDetector} interface.
  * <p>
@@ -8,11 +13,23 @@ package com.precognox.workshops.fruitdetector;
  */
 public class FruitDetectorImpl implements FruitDetector {
 
+    private Set<String> knownFruits = Collections.unmodifiableSet(Set.of(
+            "🍎", "🍌", "🍒", "🍇", "🍍"));
+
+    private Set<String> knownNonFruits = Collections.unmodifiableSet(Set.of(
+            "🍔", "🍕", "🍞", "🍰", "🍫"));
+
     @Override
     public Results isFruit(String emoji) {
-        // TODO You need to work here to satisfy the requirements and make tests pass.
+        if (knownFruits.contains(emoji)) {
+            return Results.POSITIVE;
+        }
+
+        if (knownNonFruits.contains(emoji)) {
+            return Results.NEGATIVE;
+        }
+
         return Results.UNKNOWN;
-        // throw new UnsupportedOperationException("Unimplemented method 'isFruit'");
     }
 
 }
