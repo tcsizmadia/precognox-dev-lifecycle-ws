@@ -1,0 +1,35 @@
+{
+  "id": "java",
+  "version": "3.1.0",
+  "name": "Java",
+  "description": "A Devcontainer for developing Precognox Development Lifecycle Workshop sample application.",
+  "documentationURL": "https://github.com/tcsizmadia/precognox-dev-lifecycle-ws/blob/main/README.md",
+  "publisher": "Tamas Csizmadia",
+  "licenseURL": "https://github.com/tcsizmadia/precognox-dev-lifecycle-ws/blob/main/LICENSE",
+  "options": {
+    "imageVariant": {
+      "type": "string",
+      "description": "Java version (use -bookworm, or -bullseye variants on local arm64/Apple Silicon):",
+      "proposals": [
+        "21-bookworm",
+        "17-bookworm",
+        "21-bullseye",
+        "17-bullseye",
+        "21-buster",
+        "17-buster"
+      ],
+      "default": "17-bullseye"
+    },
+    "installMaven": {
+      "type": "boolean",
+      "description": "Install Maven for building the Java project",
+      "default": "true"
+    },
+    "installGradle": {
+      "type": "boolean",
+      "description": "Install Gradle, a build automation tool for multi-language software development",
+      "default": "false"
+    }
+  },
+  "platforms": ["Java"]
+}
