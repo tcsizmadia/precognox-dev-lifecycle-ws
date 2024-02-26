@@ -31,5 +31,14 @@
       "default": "false"
     }
   },
-  "platforms": ["Java"]
+  "platforms": ["Java"],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "redhat.vscode-yaml",
+        "redhat.java"
+      ]
+    }
+  }
 }
