@@ -8,9 +8,12 @@
 
 ---
 
+**Patrik Solymosi** 
+[GitHub](https://github.com/psolymosi)
+
 **Tamas Csizmadia** 
 [LinkedIn](https://www.linkedin.com/in/tamascsizmadia/) | 
-[GitHub](https://github.com/tcsizmadia)
+[GitHub](https://github.com/tcsizmadia) 
 
 # Development Lifecycle Mini-Workshop for Student Visitors
 
@@ -106,6 +109,7 @@ mvn test
 
 ## Authors
 
+* **Patrik Solymosi**
 * **Tamas Csizmadia**
 
 ## License
