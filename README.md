@@ -9,7 +9,7 @@
 ---
 
 **Patrik Solymosi** 
-[GitHub](https://github.com/psolymosi)
+[GitHub](https://github.com/PatrikSolymosi)
 
 **Tamas Csizmadia** 
 [LinkedIn](https://www.linkedin.com/in/tamascsizmadia/) | 
